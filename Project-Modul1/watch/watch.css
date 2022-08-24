@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: red; */
+}
+.ph_box-one {
+  padding: 20px;
+  text-align: left;
+}
+.anhdaidien {
+  width: 50px;
+  height: 50px;
+  border-radius: 99px;
+}
+.usename:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.floww {
+  color: #216fdb;
+}
+.floww:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.chamngang:hover {
+  background-color: rgb(207, 221, 221);
+}
+.ph_box {
+  border: 1px solid rgb(244, 244, 244);
+  width: 818px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 167px;
+  border-radius: 10px;
+}
+.chamngang {
+  position: absolute;
+  right: 200px;
+  border-radius: 99px;
+}
+.layout_left {
+  background-color: #ffffff;
+  width: 360px;
+  position: relative;
+  margin-top: 60px;
+}
+.setting1 {
+  font-size: 25px;
+  margin-left: 200px;
+  border-radius: 99px;
+  background-color: #e4e6eb;
+}
+.title1 {
+  font-size: 25px;
+  padding-left: 20px;
+}
+.setting1:hover {
+  cursor: pointer;
+  background-color: #cdc5c5;
+}
+#containerr {
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: row;
+}
+.ph_video {
+  border: 1px solid rgb(255, 255, 255);
+  width: 1212px;
+  margin-top: 60px;
+}
+.watch1 {
+  position: fixed;
+  z-index: 999;
+  background-color: #ffffff;
+  width: 350px;
+  height: 100%;
+}
+.crow {
+  background-color: #ffffff;
+  width: 345px;
+  padding-left: 10px;
+  border: none;
+  overflow-y: scroll;
+  white-space: nowrap;
+  height: 582px;
+}
+
+.Seachvideos {
+  border-radius: 99px;
+  padding-left: 20px;
+  margin: 20px;
+  width: 300px;
+  height: 35px;
+  background-color: #f0f2f5;
+}
+.mb-3 {
+  height: 360px;
+}
+.crow_1home,
+.crow_2home,
+.crow_3home,
+.crow_4home {
+  border-radius: 99px;
+  padding: 10px;
+}
+.crow_1:hover {
+  cursor: pointer;
+  background-color: #f0f2f5;
+}
+.crow_11 {
+  background-color: #f0f2f5;
+}
+.loveicon {
+  height: 30px;
+}
+.livecontent {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+.ph_content {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin-top: 10px;
+}
+.loveicon_1:hover {
+  background-color: #f0f2f5;
+  cursor: pointer;
+}
+.loveicon_1 {
+  border: 1px solid rgb(255, 255, 255);
+  height: 46px;
+  width: 130px;
+  text-align: left;
+  padding: 10px;
+}
+.title_likecontent {
+  font-size: 14px;
+}
+.mmmp1 {
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dh {
+  display: inline-block;
+}
+
+.input {
+  width: 200px;
+  height: 35px;
+  background-color: #f0f2f5;
+  border-radius: 999px;
+  border: none;
+  display: inline-block;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+/* .flex1 {
+  display: flex;
+  justify-content: space-around;
+
+} */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  margin-top: 0px;
+}
+#flex1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  height: 50px;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex3 {
+  display: flex;
+  align-items: center;
+}
+.round-btn1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.round-btn1:hover {
+  background-color: #d8dadf;
+}
+.imga {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.imga1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+#tt0,
+#tt1,
+#tt2,
+#tt3,
+#tt4 {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 2px solid #3498DB; */
+}
+#tt0:hover {
+  background-color: #e4e6eb;
+  border-radius: 10px;
+}
+#tt1:hover {
+  background-color: #e4e6eb;
+  border-radius: 10px;
+}
+#tt2:hover {
+  background-color: #e4e6eb;
+  border-radius: 10px;
+}
+#tt3:hover {
+  background-color: #e4e6eb;
+  border-radius: 10px;
+}
+#tt4:hover {
+  background-color: #e4e6eb;
+  border-radius: 10px;
+}
